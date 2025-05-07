@@ -1,0 +1,121 @@
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    .carousel-item img {
+      height: 300px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .carousel-item img {
+      height: 200px;
+    }
+  }
+
+     .blog-main-card {
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .blog-main-card .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 1.5rem;
+      background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.1));
+      color: #fff;
+    }
+    .category-badge {
+      background-color: #0d6efd;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 5px 10px;
+      border-radius: 20px;
+      color: #fff;
+      display: inline-block;
+      margin-bottom: 0.75rem;
+    }
+    .side-card img {
+      border-radius: 10px;
+      object-fit: cover;
+      height: 80px;
+      width: 80px;
+    }
+
+
+    .icon-circle {
+        background-color: #0d6efd;
+        color: white;
+        padding: 15px;
+        border-radius: 50%;
+        font-size: 1.25rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .contact-card {
+        background-color: #f8f9fc;
+        border-radius: 10px;
+        padding: 2rem;
+      }
+      .section-title {
+        border-bottom: 3px solid #0d6efd;
+        display: inline-block;
+        padding-bottom: 5px;
+        margin-bottom: 1rem;
+      }
+
+
+      .left-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      .offer-box {
+        background: url('your-offer-image.jpg') no-repeat center center/cover;
+        height: 100%;
+        border-radius: 10px;
+        position: relative;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      .offer-box::before {
+        content: "50% OFF";
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background: #ff5e00;
+        padding: 8px 12px;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+      .register-now {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        background: #0056d2;
+        padding: 8px 16px;
+        border-radius: 5px;
+        font-weight: bold;
+        color: #fff;
+        padding-top: 3px;
+        margin-left: 50px;
+    }
+    .profile-img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+      .navbar-brand img {
+        height: 50px;
+        object-fit: contain;
+      }
